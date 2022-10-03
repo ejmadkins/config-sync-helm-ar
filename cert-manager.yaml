@@ -1,0 +1,16 @@
+apiVersion: configsync.gke.io/v1beta1
+kind: RootSync
+metadata:
+  name: ROOT_SYNC_NAME
+  namespace: config-management-system
+spec:
+  sourceFormat: unstructured
+  sourceType: helm
+  helm:
+    repo: oci://europe-west2-docker.pkg.dev/ejmadkins-config-sync-helm/ar-config-sync-helm
+    chart: cert-manager
+    version: 1.9.1
+    releaseName: cert-manager
+    namespace: test
+    auth: gcpserviceaccount
+    gcpServiceAccountEmail: gsa-config-sync-helm@ejmadkins-config-sync-helm.iam.gserviceaccount.com
