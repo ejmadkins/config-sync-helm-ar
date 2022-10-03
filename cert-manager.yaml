@@ -11,6 +11,6 @@ spec:
     chart: cert-manager
     version: 1.9.1
     releaseName: cert-manager
-    namespace: test
+    namespace: cert-manager
     auth: gcpserviceaccount
     gcpServiceAccountEmail: gsa-config-sync-helm@ejmadkins-config-sync-helm.iam.gserviceaccount.com
