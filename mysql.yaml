@@ -14,7 +14,3 @@ spec:
     namespace: mysql
     auth: gcpserviceaccount
     gcpServiceAccountEmail: gsa-config-sync-helm@ejmadkins-config-sync-helm.iam.gserviceaccount.com
-    values:
-      commonLabels:
-        engine: "mysql"
-        workload: "db"
