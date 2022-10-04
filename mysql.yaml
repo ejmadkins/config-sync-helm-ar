@@ -16,4 +16,4 @@ spec:
     gcpServiceAccountEmail: gsa-config-sync-helm@ejmadkins-config-sync-helm.iam.gserviceaccount.com
     values:
       commonLabels:
-        variable: set-by-helm
+        - variable: set-by-helm
