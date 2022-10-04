@@ -16,4 +16,4 @@ spec:
     gcpServiceAccountEmail: gsa-config-sync-helm@ejmadkins-config-sync-helm.iam.gserviceaccount.com
     values:
       podLabels:
-        some: labels
+        some: "labels"
