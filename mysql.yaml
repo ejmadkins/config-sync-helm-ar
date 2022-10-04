@@ -11,6 +11,6 @@ spec:
     chart: mysql
     version: 9.3.1
     releaseName: my-mysql
-    namespace: test
+    namespace: mysql
     auth: gcpserviceaccount
     gcpServiceAccountEmail: gsa-config-sync-helm@ejmadkins-config-sync-helm.iam.gserviceaccount.com
